@@ -1,16 +1,74 @@
-# React + Vite
+# React Product Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive product catalog built with React. This project focuses on creating a clean user interface with interactive product search, category filtering, and price sorting.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔍 Search products by name
+- 🗂️ Filter products by category
+- 💰 Sort products by price
+- 🔄 Reset all filters with one click
+- 📊 Display the number of matching products
+- 🚫 Show an empty state when no products are found
+- 📱 Responsive and clean layout
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application uses React's `useState` hook to manage the search term, selected category, and sorting option.
+
+Products are dynamically filtered based on the user's search and category selection. Users can also sort the products from low to high or high to low based on price.
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-product-catalog.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd react-product-catalog
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local development URL provided by Vite in your browser.
+
+## Project Preview
+
+Add a screenshot of the project here.
+
+## Future Improvements
+
+- Add product details pages
+- Add shopping cart functionality
+- Connect the application to an API
+- Add pagination
+- Add more advanced filtering options
+
+## Author
+
+Saman Yarzada
+
+---
+
+⭐ If you like this project, feel free to give it a star!
